@@ -30,8 +30,8 @@ public class LoginPage extends M_BasePage {
 
 	public HomePage Subscriber_Login(){
 
-		Email.sendKeys(" andm12903@mailinator.com");
-		Password.sendKeys("N47Z");
+		Email.sendKeys("********");
+		Password.sendKeys("******");
 		Log_in.click();
 		Reporter.log("login successful",true);
 		return new HomePage(mdriver);
